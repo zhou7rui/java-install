@@ -2,7 +2,7 @@
 echo "java environment install"
 tools_path="/opt/tools"
 
-if [! -d "$tools_path" ];then
+if [ ! -d "$tools_path" ];then
     mkdir -p  $tools_ath
 fi
 
